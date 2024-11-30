@@ -146,7 +146,7 @@ public class Display {
 				if (e.getButton() == MouseEvent.BUTTON1) {
 					mb_left = false;
 				}
-				if (e.getButton() == MouseEvent.BUTTON2) {
+				if (e.getButton() == MouseEvent.BUTTON3) {
 					mb_right = false;
 				}
 			}
@@ -155,7 +155,7 @@ public class Display {
 				if (e.getButton() == MouseEvent.BUTTON1) {
 					mb_left = true;
 				}
-				if (e.getButton() == MouseEvent.BUTTON2) {
+				if (e.getButton() == MouseEvent.BUTTON3) {
 					mb_right = true;
 				}
 			}
